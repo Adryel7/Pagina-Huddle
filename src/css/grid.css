@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid:
+    "header header" 190px
+    "imagem_principal descricao" 1fr
+    "footer footer" 100px;
+
+    grid-template-columns: 1fr 500px;
+}
+
+header{
+    grid-area: header;
+}
+
+.imagem_principal{
+    grid-area: imagem_principal;
+}
+
+.descricao{
+    grid-area: descricao;
+}
+
+footer{
+    grid-area: footer;
+}
