@@ -3,9 +3,10 @@ body{
     grid:
     "header header" 190px
     "imagem_principal descricao" 1fr
-    "footer footer" 100px;
+    "vazio redes" 50px
+    "footer footer" 50px;
 
-    grid-template-columns: 1fr 500px;
+    grid-template-columns: min-content auto;
 }
 
 header{
@@ -18,6 +19,10 @@ header{
 
 .descricao{
     grid-area: descricao;
+}
+
+.redes{
+    grid-area: redes;
 }
 
 footer{
